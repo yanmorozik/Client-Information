@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <include file="db/changelog/migration/1_create-client-table.xml"/>
+    <include file="db/changelog/migration/2_create-mail-table.xml"/>
+    <include file="db/changelog/migration/3_create-phone-table.xml"/>
+</databaseChangeLog>
